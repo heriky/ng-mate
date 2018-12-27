@@ -1,0 +1,31 @@
+.__group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.__hgroup {
+  .__group;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.__vgroup {
+  .__group;
+  flex-flow: column nowrap;
+  height: 100%;
+}
+v-group {
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+h-group {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+group {
+  display: block;
+}

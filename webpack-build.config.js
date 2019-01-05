@@ -10,7 +10,7 @@ const webpackCommon = require('./webpack-common.config.js');
 
 
 const production = env => ({
-	devtool: 'source-map',
+	// devtool: 'source-map',
 	context: srcDir,
 	entry: {
 		app: './index.js'

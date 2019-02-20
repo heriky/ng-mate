@@ -1,6 +1,6 @@
 {
   "name": "ng-mate",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "./dist/index.js",
   "scripts": {
     "start": "run-p mock dev",
@@ -12,7 +12,7 @@
   "author": "heriky",
   "dependencies": {
     "angular": "1.5.8",
-    "angular-es-utils": "^2.1.2",
+    "angular-es-utils": "^2.1.2"
   },
   "private": false,
   "devDependencies": {

@@ -13,14 +13,15 @@ const production = env => ({
 	// devtool: 'source-map',
 	context: srcDir,
 	entry: {
-		component: './index.js',
-		decorators: './decorators/index.js',
-		utils: './utils/index.js',
+		// component: './index.js',
+		// decorators: './decorators/index.js',
+		// utils: './utils/index.js',
 		index: './index.js'
 	},
 	output: {
 		path: buildOutputDir,
-		filename: '[name].js'
+		filename: '[name].js',
+		libraryTarget: 'umd'
 	},
 	plugins: [
 		new CleanPlugin([buildOutputDir]),

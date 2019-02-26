@@ -15,6 +15,10 @@ export default class GroupBase {
     this.gap && this.handleGap();
   }
 
+  $onChanges() {
+    this.$onInit();
+  }
+
   // @override
   handleStyle() {
     this.styleObj = this.styleObj || {};

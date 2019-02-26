@@ -1,7 +1,7 @@
 {
   "name": "ng-mate",
   "version": "0.0.4",
-  "main": "./dist/index.js",
+  "main": "./index.js",
   "scripts": {
     "start": "run-p mock dev",
     "build": "webpack --config webpack-build.config.js",
@@ -12,7 +12,9 @@
   "author": "heriky",
   "dependencies": {
     "angular": "1.5.8",
-    "angular-es-utils": "^2.1.2"
+    "angular-es-utils": "^2.1.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   },
   "private": false,
   "devDependencies": {

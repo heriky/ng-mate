@@ -6,7 +6,7 @@ import { getByProps, setByProps } from './utils';
 
 const mateComponents = angular.module('mate.components', [components]);
 
-const version = require('./package.json').version;
+const version = require('../package.json').version;
 
 export default mateComponents.name;
 
